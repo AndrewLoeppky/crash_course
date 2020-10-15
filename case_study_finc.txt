@@ -1,0 +1,603 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+through C:\Users\Owner\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+Loading personal and system profiles took 4550ms.
+(e211):UBC_TLEF/eosc_211
+> conda deactivate e211
+(mini37):UBC_TLEF/eosc_211
+> conda create --name finc
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.3
+  latest version: 4.8.5
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\Owner\mini37\envs\finc
+
+
+
+Proceed ([y]/n)? y
+
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate finc
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(mini37):UBC_TLEF/eosc_211
+> conda activate finc
+(finc):UBC_TLEF/eosc_211
+> conda install scipy
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.3
+  latest version: 4.8.5
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\Owner\mini37\envs\finc
+
+  added / updated specs:
+    - scipy
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    certifi-2020.6.20          |   py37hf50a25e_2         152 KB  conda-forge
+    numpy-1.19.2               |   py37h7cee19a_1         4.8 MB  conda-forge
+    openssl-1.1.1h             |       he774522_0         5.8 MB  conda-forge
+    pip-20.2.3                 |             py_0         1.1 MB  conda-forge
+    python-3.7.8               |h60c2a47_1_cpython        18.0 MB  conda-forge
+    scipy-1.5.2                |   py37h9439919_0        11.8 MB
+    setuptools-49.6.0          |   py37hf50a25e_2         919 KB  conda-forge
+    sqlite-3.33.0              |       he774522_1         1.2 MB  conda-forge
+    wheel-0.35.1               |     pyh9f0ad1d_0          29 KB  conda-forge
+    wincertstore-0.2           |py37hc8dfbb8_1005          15 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        43.7 MB
+
+The following NEW packages will be INSTALLED:
+
+  blas               pkgs/main/win-64::blas-1.0-mkl
+  ca-certificates    conda-forge/win-64::ca-certificates-2020.6.20-hecda079_0
+  certifi            conda-forge/win-64::certifi-2020.6.20-py37hf50a25e_2
+  icc_rt             pkgs/main/win-64::icc_rt-2019.0.0-h0cc432a_1
+  intel-openmp       pkgs/main/win-64::intel-openmp-2019.4-245
+  libblas            conda-forge/win-64::libblas-3.8.0-14_mkl
+  libcblas           conda-forge/win-64::libcblas-3.8.0-14_mkl
+  liblapack          conda-forge/win-64::liblapack-3.8.0-14_mkl
+  mkl                pkgs/main/win-64::mkl-2019.4-245
+  mkl-service        conda-forge/win-64::mkl-service-2.3.0-py37hfa6e2cd_0
+  numpy              conda-forge/win-64::numpy-1.19.2-py37h7cee19a_1
+  openssl            conda-forge/win-64::openssl-1.1.1h-he774522_0
+  pip                conda-forge/noarch::pip-20.2.3-py_0
+  python             conda-forge/win-64::python-3.7.8-h60c2a47_1_cpython
+  python_abi         conda-forge/win-64::python_abi-3.7-1_cp37m
+  scipy              pkgs/main/win-64::scipy-1.5.2-py37h9439919_0
+  setuptools         conda-forge/win-64::setuptools-49.6.0-py37hf50a25e_2
+  six                conda-forge/noarch::six-1.15.0-pyh9f0ad1d_0
+  sqlite             conda-forge/win-64::sqlite-3.33.0-he774522_1
+  vc                 conda-forge/win-64::vc-14.1-h869be7e_1
+  vs2015_runtime     conda-forge/win-64::vs2015_runtime-14.16.27012-h30e32a0_2
+  wheel              conda-forge/noarch::wheel-0.35.1-pyh9f0ad1d_0
+  wincertstore       conda-forge/win-64::wincertstore-0.2-py37hc8dfbb8_1005
+
+
+Proceed ([y]/n)? cond
+Invalid choice: cond
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+setuptools-49.6.0    | 919 KB    | ############################################################################ | 100%
+wheel-0.35.1         | 29 KB     | ############################################################################ | 100%
+wincertstore-0.2     | 15 KB     | ############################################################################ | 100%
+scipy-1.5.2          | 11.8 MB   | ############################################################################ | 100%
+numpy-1.19.2         | 4.8 MB    | ############################################################################ | 100%
+pip-20.2.3           | 1.1 MB    | ############################################################################ | 100%
+certifi-2020.6.20    | 152 KB    | ############################################################################ | 100%
+openssl-1.1.1h       | 5.8 MB    | ############################################################################ | 100%
+sqlite-3.33.0        | 1.2 MB    | ############################################################################ | 100%
+python-3.7.8         | 18.0 MB   | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(finc):UBC_TLEF/eosc_211
+> conda install pandas
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.8.3
+  latest version: 4.8.5
+
+Please update conda by running
+
+    $ conda update -n base conda
+
+
+
+## Package Plan ##
+
+  environment location: C:\Users\Owner\mini37\envs\finc
+
+  added / updated specs:
+    - pandas
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pandas-1.1.3               |   py37h414f9d2_2         9.4 MB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         9.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  pandas             conda-forge/win-64::pandas-1.1.3-py37h414f9d2_2
+  python-dateutil    conda-forge/noarch::python-dateutil-2.8.1-py_0
+  pytz               conda-forge/noarch::pytz-2020.1-pyh9f0ad1d_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+pandas-1.1.3         | 9.4 MB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(finc):UBC_TLEF/eosc_211
+> conda update -n base conda
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Owner\mini37
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    brotlipy-0.7.0             |py37h0013d47_1001         368 KB  conda-forge
+    cffi-1.14.3                |   py37hd6b71e5_1         226 KB  conda-forge
+    chardet-3.0.4              |py37hf50a25e_1008         190 KB  conda-forge
+    conda-4.8.5                |   py37hf50a25e_2         3.0 MB  conda-forge
+    conda-package-handling-1.7.0|   py37h6dbccfb_6         715 KB  conda-forge
+    cryptography-3.1.1         |   py37h26f1ce3_0         583 KB  conda-forge
+    pycosat-0.6.3              |py37h0013d47_1005         102 KB  conda-forge
+    pysocks-1.7.1              |   py37hf50a25e_2          28 KB  conda-forge
+    pywin32-228                |   py37h4ab8f01_0         6.9 MB  conda-forge
+    ruamel_yaml-0.15.80        |py37h0013d47_1003         275 KB  conda-forge
+    tqdm-4.50.2                |     pyh9f0ad1d_0          55 KB  conda-forge
+    win_inet_pton-1.1.0        |   py37hc8dfbb8_1           8 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        12.5 MB
+
+The following packages will be UPDATED:
+
+  brotlipy                          0.7.0-py37h4ab8f01_1000 --> 0.7.0-py37h0013d47_1001
+  certifi                          2020.6.20-py37hc8dfbb8_0 --> 2020.6.20-py37hf50a25e_2
+  cffi                                1.14.0-py37ha419a9e_0 --> 1.14.3-py37hd6b71e5_1
+  chardet                           3.0.4-py37hc8dfbb8_1006 --> 3.0.4-py37hf50a25e_1008
+  conda                                4.8.3-py37hc8dfbb8_1 --> 4.8.5-py37hf50a25e_2
+  conda-package-han~                   1.6.0-py37h702c6c1_2 --> 1.7.0-py37h6dbccfb_6
+  cryptography                         2.9.2-py37h26f1ce3_0 --> 3.1.1-py37h26f1ce3_0
+  openssl                                 1.1.1g-he774522_0 --> 1.1.1h-he774522_0
+  pip                                           20.1.1-py_1 --> 20.2.3-py_0
+  pycosat                           0.6.3-py37h8055547_1004 --> 0.6.3-py37h0013d47_1005
+  pysocks                              1.7.1-py37hc8dfbb8_1 --> 1.7.1-py37hf50a25e_2
+  pywin32                                227-py37hfa6e2cd_0 --> 228-py37h4ab8f01_0
+  ruamel_yaml                     0.15.80-py37h8055547_1001 --> 0.15.80-py37h0013d47_1003
+  setuptools                          47.3.1-py37hc8dfbb8_0 --> 49.6.0-py37hf50a25e_2
+  sqlite                                  3.32.3-he774522_0 --> 3.33.0-he774522_1
+  tqdm                                  4.47.0-pyh9f0ad1d_0 --> 4.50.2-pyh9f0ad1d_0
+  urllib3                                       1.25.9-py_0 --> 1.25.10-py_0
+  wheel                                         0.34.2-py_1 --> 0.35.1-pyh9f0ad1d_0
+  win_inet_pton                                1.1.0-py37_0 --> 1.1.0-py37hc8dfbb8_1
+  wincertstore                                0.2-py37_1003 --> 0.2-py37hc8dfbb8_1005
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+cryptography-3.1.1   | 583 KB    | ############################################################################ | 100%
+pycosat-0.6.3        | 102 KB    | ############################################################################ | 100%
+win_inet_pton-1.1.0  | 8 KB      | ############################################################################ | 100%
+pysocks-1.7.1        | 28 KB     | ############################################################################ | 100%
+brotlipy-0.7.0       | 368 KB    | ############################################################################ | 100%
+tqdm-4.50.2          | 55 KB     | ############################################################################ | 100%
+pywin32-228          | 6.9 MB    | ############################################################################ | 100%
+ruamel_yaml-0.15.80  | 275 KB    | ############################################################################ | 100%
+conda-package-handli | 715 KB    | ############################################################################ | 100%
+chardet-3.0.4        | 190 KB    | ############################################################################ | 100%
+cffi-1.14.3          | 226 KB    | ############################################################################ | 100%
+conda-4.8.5          | 3.0 MB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+(finc):UBC_TLEF/eosc_211
+> conda install numpy
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+# All requested packages already installed.
+
+(finc):UBC_TLEF/eosc_211
+> conda list
+# packages in environment at C:\Users\Owner\mini37\envs\finc:
+#
+# Name                    Version                   Build  Channel
+blas                      1.0                         mkl
+ca-certificates           2020.6.20            hecda079_0    conda-forge
+certifi                   2020.6.20        py37hf50a25e_2    conda-forge
+icc_rt                    2019.0.0             h0cc432a_1
+intel-openmp              2019.4                      245
+libblas                   3.8.0                    14_mkl    conda-forge
+libcblas                  3.8.0                    14_mkl    conda-forge
+liblapack                 3.8.0                    14_mkl    conda-forge
+mkl                       2019.4                      245
+mkl-service               2.3.0            py37hfa6e2cd_0    conda-forge
+numpy                     1.19.2           py37h7cee19a_1    conda-forge
+openssl                   1.1.1h               he774522_0    conda-forge
+pandas                    1.1.3            py37h414f9d2_2    conda-forge
+pip                       20.2.3                     py_0    conda-forge
+python                    3.7.8           h60c2a47_1_cpython    conda-forge
+python-dateutil           2.8.1                      py_0    conda-forge
+python_abi                3.7                     1_cp37m    conda-forge
+pytz                      2020.1             pyh9f0ad1d_0    conda-forge
+scipy                     1.5.2            py37h9439919_0
+setuptools                49.6.0           py37hf50a25e_2    conda-forge
+six                       1.15.0             pyh9f0ad1d_0    conda-forge
+sqlite                    3.33.0               he774522_1    conda-forge
+vc                        14.1                 h869be7e_1    conda-forge
+vs2015_runtime            14.16.27012          h30e32a0_2    conda-forge
+wheel                     0.35.1             pyh9f0ad1d_0    conda-forge
+wincertstore              0.2             py37hc8dfbb8_1005    conda-forge
+(finc):UBC_TLEF/eosc_211
+> conda env export > finc.yaml
+(finc):UBC_TLEF/eosc_211
+> cd ..
+(finc):Owner/UBC_TLEF
+> cd .
+(finc):Owner/UBC_TLEF
+> cd ..
+(finc):Users/Owner
+> cd .\UBC_F2020\
+(finc):Owner/UBC_F2020
+> cd finc
+(finc):UBC_F2020/finc
+> jupyter notebook
+jupyter : The term 'jupyter' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ jupyter notebook
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (jupyter:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+(finc):UBC_F2020/finc
+> conda install jupyter
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\Owner\mini37\envs\finc
+
+  added / updated specs:
+    - jupyter
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    argon2-cffi-20.1.0         |   py37h4ab8f01_2          51 KB  conda-forge
+    attrs-20.2.0               |     pyh9f0ad1d_0          41 KB  conda-forge
+    bleach-3.2.1               |     pyh9f0ad1d_0         111 KB  conda-forge
+    icu-67.1                   |       h33f27b4_0        16.1 MB  conda-forge
+    importlib-metadata-2.0.0   |             py_1          28 KB  conda-forge
+    importlib_metadata-2.0.0   |                1           3 KB  conda-forge
+    ipython-5.8.0              |           py37_1         1.1 MB  conda-forge
+    ipywidgets-7.5.1           |     pyh9f0ad1d_1         101 KB  conda-forge
+    jsonschema-3.2.0           |             py_2          45 KB  conda-forge
+    jupyter_client-6.1.7       |             py_0          76 KB  conda-forge
+    jupyter_console-5.2.0      |           py37_1          51 KB  conda-forge
+    jupyter_core-4.6.3         |   py37hc8dfbb8_2          96 KB  conda-forge
+    jupyterlab_pygments-0.1.2  |     pyh9f0ad1d_0           8 KB  conda-forge
+    libclang-10.0.1            |default_hf44288c_1        22.0 MB  conda-forge
+    libpng-1.6.37              |       ha81a0f5_2         763 KB  conda-forge
+    libsodium-1.0.18           |       h62dcd97_1         664 KB  conda-forge
+    markupsafe-1.1.1           |   py37h0013d47_2          30 KB  conda-forge
+    mistune-0.8.4              |py37h4ab8f01_1002          54 KB  conda-forge
+    nbclient-0.5.0             |             py_0          60 KB  conda-forge
+    nbconvert-6.0.7            |   py37hc8dfbb8_0         552 KB  conda-forge
+    nest-asyncio-1.4.1         |             py_0           9 KB  conda-forge
+    notebook-6.1.4             |   py37hc8dfbb8_0         7.6 MB  conda-forge
+    pandoc-2.11                |       hf4a77e7_0        18.7 MB  conda-forge
+    pickleshare-0.7.5          |          py_1003           9 KB  conda-forge
+    prompt_toolkit-1.0.15      |             py_1         154 KB  conda-forge
+    pygments-2.7.1             |             py_0         705 KB  conda-forge
+    pyqt-5.12.3                |   py37h1834ac0_4         4.8 MB  conda-forge
+    pyrsistent-0.17.3          |   py37h4ab8f01_1          91 KB  conda-forge
+    pywinpty-0.5.7             |   py37hc8dfbb8_1          50 KB  conda-forge
+    pyzmq-19.0.2               |   py37h453f00a_2         432 KB  conda-forge
+    qt-5.12.9                  |       hb2cf2c5_0       106.3 MB  conda-forge
+    qtconsole-4.7.7            |     pyh9f0ad1d_0          88 KB  conda-forge
+    simplegeneric-0.8.1        |             py_1           7 KB  conda-forge
+    terminado-0.9.1            |   py37hc8dfbb8_0          25 KB  conda-forge
+    tornado-6.0.4              |   py37h4ab8f01_2         643 KB  conda-forge
+    traitlets-5.0.4            |             py_1          79 KB  conda-forge
+    wcwidth-0.2.5              |     pyh9f0ad1d_2          33 KB  conda-forge
+    zeromq-4.3.2               |       ha925a31_4         8.8 MB  conda-forge
+    zipp-3.3.0                 |             py_0          11 KB  conda-forge
+    zlib-1.2.11                |    h62dcd97_1009         126 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       190.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  argon2-cffi        conda-forge/win-64::argon2-cffi-20.1.0-py37h4ab8f01_2
+  async_generator    conda-forge/noarch::async_generator-1.10-py_0
+  attrs              conda-forge/noarch::attrs-20.2.0-pyh9f0ad1d_0
+  backports          conda-forge/noarch::backports-1.0-py_2
+  backports.functoo~ conda-forge/noarch::backports.functools_lru_cache-1.6.1-py_0
+  bleach             conda-forge/noarch::bleach-3.2.1-pyh9f0ad1d_0
+  cffi               conda-forge/win-64::cffi-1.14.3-py37hd6b71e5_1
+  colorama           conda-forge/noarch::colorama-0.4.3-py_0
+  decorator          conda-forge/noarch::decorator-4.4.2-py_0
+  defusedxml         conda-forge/noarch::defusedxml-0.6.0-py_0
+  entrypoints        conda-forge/win-64::entrypoints-0.3-py37hc8dfbb8_1001
+  icu                conda-forge/win-64::icu-67.1-h33f27b4_0
+  importlib-metadata conda-forge/noarch::importlib-metadata-2.0.0-py_1
+  importlib_metadata conda-forge/noarch::importlib_metadata-2.0.0-1
+  ipykernel          conda-forge/win-64::ipykernel-5.3.4-py37h5ca1d4c_0
+  ipython            conda-forge/win-64::ipython-5.8.0-py37_1
+  ipython_genutils   conda-forge/noarch::ipython_genutils-0.2.0-py_1
+  ipywidgets         conda-forge/noarch::ipywidgets-7.5.1-pyh9f0ad1d_1
+  jinja2             conda-forge/noarch::jinja2-2.11.2-pyh9f0ad1d_0
+  jpeg               conda-forge/win-64::jpeg-9d-he774522_0
+  jsonschema         conda-forge/noarch::jsonschema-3.2.0-py_2
+  jupyter            conda-forge/noarch::jupyter-1.0.0-py_2
+  jupyter_client     conda-forge/noarch::jupyter_client-6.1.7-py_0
+  jupyter_console    conda-forge/win-64::jupyter_console-5.2.0-py37_1
+  jupyter_core       conda-forge/win-64::jupyter_core-4.6.3-py37hc8dfbb8_2
+  jupyterlab_pygmen~ conda-forge/noarch::jupyterlab_pygments-0.1.2-pyh9f0ad1d_0
+  libclang           conda-forge/win-64::libclang-10.0.1-default_hf44288c_1
+  libpng             conda-forge/win-64::libpng-1.6.37-ha81a0f5_2
+  libsodium          conda-forge/win-64::libsodium-1.0.18-h62dcd97_1
+  m2w64-gcc-libgfor~ pkgs/msys2/win-64::m2w64-gcc-libgfortran-5.3.0-6
+  m2w64-gcc-libs     pkgs/msys2/win-64::m2w64-gcc-libs-5.3.0-7
+  m2w64-gcc-libs-co~ pkgs/msys2/win-64::m2w64-gcc-libs-core-5.3.0-7
+  m2w64-gmp          pkgs/msys2/win-64::m2w64-gmp-6.1.0-2
+  m2w64-libwinpthre~ pkgs/msys2/win-64::m2w64-libwinpthread-git-5.0.0.4634.697f757-2
+  markupsafe         conda-forge/win-64::markupsafe-1.1.1-py37h0013d47_2
+  mistune            conda-forge/win-64::mistune-0.8.4-py37h4ab8f01_1002
+  msys2-conda-epoch  pkgs/msys2/win-64::msys2-conda-epoch-20160418-1
+  nbclient           conda-forge/noarch::nbclient-0.5.0-py_0
+  nbconvert          conda-forge/win-64::nbconvert-6.0.7-py37hc8dfbb8_0
+  nbformat           conda-forge/noarch::nbformat-5.0.7-py_0
+  nest-asyncio       conda-forge/noarch::nest-asyncio-1.4.1-py_0
+  notebook           conda-forge/win-64::notebook-6.1.4-py37hc8dfbb8_0
+  packaging          conda-forge/noarch::packaging-20.4-pyh9f0ad1d_0
+  pandoc             conda-forge/win-64::pandoc-2.11-hf4a77e7_0
+  pandocfilters      conda-forge/noarch::pandocfilters-1.4.2-py_1
+  pickleshare        conda-forge/noarch::pickleshare-0.7.5-py_1003
+  prometheus_client  conda-forge/noarch::prometheus_client-0.8.0-pyh9f0ad1d_0
+  prompt_toolkit     conda-forge/noarch::prompt_toolkit-1.0.15-py_1
+  pycparser          conda-forge/noarch::pycparser-2.20-pyh9f0ad1d_2
+  pygments           conda-forge/noarch::pygments-2.7.1-py_0
+  pyparsing          conda-forge/noarch::pyparsing-2.4.7-pyh9f0ad1d_0
+  pyqt               conda-forge/win-64::pyqt-5.12.3-py37h1834ac0_4
+  pyrsistent         conda-forge/win-64::pyrsistent-0.17.3-py37h4ab8f01_1
+  pywin32            conda-forge/win-64::pywin32-228-py37h4ab8f01_0
+  pywinpty           conda-forge/win-64::pywinpty-0.5.7-py37hc8dfbb8_1
+  pyzmq              conda-forge/win-64::pyzmq-19.0.2-py37h453f00a_2
+  qt                 conda-forge/win-64::qt-5.12.9-hb2cf2c5_0
+  qtconsole          conda-forge/noarch::qtconsole-4.7.7-pyh9f0ad1d_0
+  qtpy               conda-forge/noarch::qtpy-1.9.0-py_0
+  send2trash         conda-forge/noarch::send2trash-1.5.0-py_0
+  simplegeneric      conda-forge/noarch::simplegeneric-0.8.1-py_1
+  terminado          conda-forge/win-64::terminado-0.9.1-py37hc8dfbb8_0
+  testpath           conda-forge/noarch::testpath-0.4.4-py_0
+  tornado            conda-forge/win-64::tornado-6.0.4-py37h4ab8f01_2
+  traitlets          conda-forge/noarch::traitlets-5.0.4-py_1
+  wcwidth            conda-forge/noarch::wcwidth-0.2.5-pyh9f0ad1d_2
+  webencodings       conda-forge/noarch::webencodings-0.5.1-py_1
+  widgetsnbextension conda-forge/win-64::widgetsnbextension-3.5.1-py37hc8dfbb8_1
+  winpty             conda-forge/win-64::winpty-0.4.3-4
+  zeromq             conda-forge/win-64::zeromq-4.3.2-ha925a31_4
+  zipp               conda-forge/noarch::zipp-3.3.0-py_0
+  zlib               conda-forge/win-64::zlib-1.2.11-h62dcd97_1009
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+jupyter_core-4.6.3   | 96 KB     | ############################################################################ | 100%
+bleach-3.2.1         | 111 KB    | ############################################################################ | 100%
+libsodium-1.0.18     | 664 KB    | ############################################################################ | 100%
+pyzmq-19.0.2         | 432 KB    | ############################################################################ | 100%
+zipp-3.3.0           | 11 KB     | ############################################################################ | 100%
+jsonschema-3.2.0     | 45 KB     | ############################################################################ | 100%
+markupsafe-1.1.1     | 30 KB     | ############################################################################ | 100%
+qt-5.12.9            | 106.3 MB  | ############################################################################ | 100%
+importlib-metadata-2 | 28 KB     | ############################################################################ | 100%
+pyrsistent-0.17.3    | 91 KB     | ############################################################################ | 100%
+jupyterlab_pygments- | 8 KB      | ############################################################################ | 100%
+pyqt-5.12.3          | 4.8 MB    | ############################################################################ | 100%
+libpng-1.6.37        | 763 KB    | ############################################################################ | 100%
+libclang-10.0.1      | 22.0 MB   | ############################################################################ | 100%
+tornado-6.0.4        | 643 KB    | ############################################################################ | 100%
+prompt_toolkit-1.0.1 | 154 KB    | ############################################################################ | 100%
+nbconvert-6.0.7      | 552 KB    | ############################################################################ | 100%
+notebook-6.1.4       | 7.6 MB    | ############################################################################ | 100%
+attrs-20.2.0         | 41 KB     | ############################################################################ | 100%
+zlib-1.2.11          | 126 KB    | ############################################################################ | 100%
+simplegeneric-0.8.1  | 7 KB      | ############################################################################ | 100%
+qtconsole-4.7.7      | 88 KB     | ############################################################################ | 100%
+ipywidgets-7.5.1     | 101 KB    | ############################################################################ | 100%
+ipython-5.8.0        | 1.1 MB    | ############################################################################ | 100%
+pygments-2.7.1       | 705 KB    | ############################################################################ | 100%
+jupyter_client-6.1.7 | 76 KB     | ############################################################################ | 100%
+traitlets-5.0.4      | 79 KB     | ############################################################################ | 100%
+wcwidth-0.2.5        | 33 KB     | ############################################################################ | 100%
+jupyter_console-5.2. | 51 KB     | ############################################################################ | 100%
+pywinpty-0.5.7       | 50 KB     | ############################################################################ | 100%
+argon2-cffi-20.1.0   | 51 KB     | ############################################################################ | 100%
+nbclient-0.5.0       | 60 KB     | ############################################################################ | 100%
+mistune-0.8.4        | 54 KB     | ############################################################################ | 100%
+importlib_metadata-2 | 3 KB      | ############################################################################ | 100%
+terminado-0.9.1      | 25 KB     | ############################################################################ | 100%
+zeromq-4.3.2         | 8.8 MB    | ############################################################################ | 100%
+icu-67.1             | 16.1 MB   | ############################################################################ | 100%
+nest-asyncio-1.4.1   | 9 KB      | ############################################################################ | 100%
+pandoc-2.11          | 18.7 MB   | ############################################################################ | 100%
+pickleshare-0.7.5    | 9 KB      | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: / Enabling notebook extension jupyter-js-widgets/extension...
+      - Validating: ok
+
+done
+(finc):UBC_F2020/finc
+> conda env export > finc.yaml
+(finc):UBC_F2020/finc
+> jupyter notebook
+[I 13:42:18.122 NotebookApp] Serving notebooks from local directory: C:\Users\Owner\UBC_F2020\finc
+[I 13:42:18.123 NotebookApp] The Jupyter Notebook is running at:
+[I 13:42:18.123 NotebookApp] http://localhost:8888/?token=c22d36c52c60589949463d5e74cb745840ccce35a0009731
+[I 13:42:18.124 NotebookApp]  or http://127.0.0.1:8888/?token=c22d36c52c60589949463d5e74cb745840ccce35a0009731
+[I 13:42:18.124 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:42:18.305 NotebookApp]
+
+    To access the notebook, open this file in a browser:
+        file:///C:/Users/Owner/AppData/Roaming/jupyter/runtime/nbserver-6868-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=c22d36c52c60589949463d5e74cb745840ccce35a0009731
+     or http://127.0.0.1:8888/?token=c22d36c52c60589949463d5e74cb745840ccce35a0009731
+[I 14:59:08.332 NotebookApp] Interrupted...
+[I 14:59:08.351 NotebookApp] Shutting down 0 kernels
+(finc):UBC_F2020/finc
+> ls
+
+
+    Directory: C:\Users\Owner\UBC_F2020\finc
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2020-10-08   4:08 PM                20201007_SA_andrew1
+d-----        2020-10-08   4:17 PM                20201007_SA_andrew2
+d-----        2020-10-08   4:25 PM                20201007_SA_andrew3
+d-----        2020-10-12  12:50 PM                ControlExpt_Oct7_2020
+-a----        2020-10-13   1:42 PM           6582 finc.yaml
+
+
+(finc):UBC_F2020/finc
+> mkdir python code
+mkdir : A positional parameter cannot be found that accepts argument 'code'.
+At line:1 char:1
++ mkdir python code
++ ~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [mkdir], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,mkdir
+
+(finc):UBC_F2020/finc
+> mkdir python_code
+
+
+    Directory: C:\Users\Owner\UBC_F2020\finc
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2020-10-13   2:59 PM                python_code
+
+
+(finc):UBC_F2020/finc
+> cd .\python_code\
+(finc):finc/python_code
+> git init
+Initialized empty Git repository in C:/Users/Owner/UBC_F2020/FINC/python_code/.git/
+(finc):finc/python_code
+> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        finc.yaml
+
+nothing added to commit but untracked files present (use "git add" to track)
+(finc):finc/python_code
+> git add .
+(finc):finc/python_code
+> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   finc.yaml
+
+(finc):finc/python_code
+> git commit -m 'initial commit'
+[master (root-commit) 1df8009] initial commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 finc.yaml
+(finc):finc/python_code
+> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+(finc):finc/python_code
+>
